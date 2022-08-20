@@ -1,62 +1,51 @@
-<br />
-<p align="center">
-    <img src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png" alt="Logo" width="200">
+<h1 align="center">
+  <img alt="Logo" src="./docs/img/download.png" alt="Go">
+</h1>
 
-  <h3 align="center">Biblioteca by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
- <br />
-  <p align="center">
-     Sistema de gerenciamento de biblioteca
-       <br />
-    <br />
-    <a href="https://github.com/devchallenge-io/biblioteca-backend">Desafio</a>
-    ·
-    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
-  </p>
+<h1 align="center">Libook System</h1>
+<p align="center">Sistema de Gerenciamento de Biblioteca</p>
+
+<p align="center">
+  <a href="#-technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
-## Índice
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+</p>
 
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Compartilhe](#compartilhe)
+## ✨ Tecnologia
+O projeto foi desenvolvido usando as seguintes technologia:
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
-
-# Desafio
-Seu desafio é criar o backend para um sistema de gerenciamento de uma biblioteca!
-
-## Requisitos:
-### Rotas da aplicação:
-<b>[POST] </b> /obras :  A rota deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ao cadastrar um novo projeto, ele deverá ser armazenado dentro de um objeto no seguinte formato: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
-<b>[GET] </b> /obras/ : A rota deverá listar todas as obras cadastradas<br><br>
-<b>[PUT] </b> /obras/:id: : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id presente nos parâmetros da rota<br><br>
-<b>[DELETE] </b> /obras/:id: : A rota deverá deletar a obra com o id presente nos parâmetros da rota<br>
+- 
 
 
-# Techs: 
-- Tecnologia que preferir :)
 
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! #devchallenge
+## 💻 Projeto
 
 
-# Compartilhe!
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado com a #devchallenge ou marcando nosso perfil @devchallenge!<br>
+###  📓 Requirimentos
 
-Desafio criado por  <a href="https://www.linkedin.com/in/lorenagmontes/">Lorena</a> :)
+## 🚀 Como Rodar
+To run the this project 
+
+- Clone the repo and access the directory;
+- You also need to have a Postgres and create a database and table;
+  - The initial configurations can be encounter in `db.go`, it is needed to use configure this instance;
+- Init the instance in [`localhost: 8000`](http://localhost:8000) with `go run main.go`;
 
 
-# Comunidade DevChallenge
-Site: https://www.devchallenge.com.br/ <br>
-Discord: https://discord.gg/yvYXhGj <br>
-Linkedin: https://www.linkedin.com/company/devchallenge/<br>
-Twitter: https://twitter.com/dev_challenge<br>
-Instagram: https://www.instagram.com/devchallenge/<br>
 
+## 📄 License
+The projects is under the MIT license. See the file [LICENSE](LICENSE) fore more details
+
+---
+## Author
+
+Made with ♥ by Rafael 👋🏻
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/rafael-mgr/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat-square&link=mailto:nelsonsantosaraujo@hotmail.com)](mailto:ribeirorafaelmatehus@gmail.com)
